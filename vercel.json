@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm run build:core && npm run build:web",
+  "buildCommand": "npm run build -w packages/core && npm run build -w apps/playground-web",
   "outputDirectory": "apps/playground-web/dist",
   "installCommand": "npm install",
   "headers": [
