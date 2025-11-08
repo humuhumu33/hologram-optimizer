@@ -1,6 +1,6 @@
 {
   "buildCommand": "npm run build -w @uor-foundation/sigmatics && npm run build -w @uor-foundation/playground-web",
-  "outputDirectory": "apps/playground-web/dist",
+  "outputDirectory": "dist",
   "installCommand": "npm install",
   "headers": [
     {
