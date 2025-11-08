@@ -26,5 +26,14 @@ export default defineConfig(({ mode }) => {
         }),
       },
     },
+    optimizeDeps: {
+      include: ['@uor-foundation/sigmatics'],
+    },
+    build: {
+      commonjsOptions: {
+        include: [/node_modules/, /packages\/core/],
+        transformMixedEsModules: true,
+      },
+    },
   };
 });

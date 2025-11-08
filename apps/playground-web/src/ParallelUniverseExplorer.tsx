@@ -6,7 +6,7 @@
  */
 
 import React, { useState, useCallback, useMemo, useEffect } from 'react';
-import { Atlas } from '@uor-foundation/sigmatics';
+import Atlas from '@uor-foundation/sigmatics';
 
 // ============================================================================
 // Types
